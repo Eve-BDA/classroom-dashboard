@@ -17,15 +17,14 @@ function NavBar() {
             <NavDropdown title="Resources" id="basic-nav-dropdown">
               <NavDropdown.Item href="/resources" className='text-center'>Google Classroom</NavDropdown.Item>
               <NavDropdown.Item href="/resources" className='text-center'>
-                Coassemble
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/resources" className='text-center'>Tech Support</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/resources" className='text-center'>
                 BDA Website
               </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/resources" className='text-center'>
+                Tech Support
+              </NavDropdown.Item>
             </NavDropdown>
-            <button type='button' className='btn-login py-2 px-lg-4 rounded-pill'>Log In</button>
+            <button type='button' className='btn-login py-2 px-lg-4'>Log In</button>
           </Nav>
         </Navbar.Collapse>
       </Container>

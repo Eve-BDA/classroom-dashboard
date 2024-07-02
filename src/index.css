@@ -10,11 +10,15 @@
   url('./Fonts/LDNKonoBDA-Medium.otf') format('otf');
 } */
 
-body {
+body, html {
   margin: 0;
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
 code {

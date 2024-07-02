@@ -5,8 +5,8 @@ import './Footer.css';
 
 function Footer() {
     return (
-        <footer className="footer text-center fixed-bottom">
-            <div className="d-flex flex-row justify-content-center mt-5">
+        <footer className="footer text-center">
+            <div className="d-flex flex-row justify-content-center pt-5">
                 <div>
                 <a
                     className="btn rounded-pill mx-3"

@@ -1,0 +1,13 @@
+:root {
+    --dark-blue: #174860;
+    --mid-blue: #196C98;
+    --pale-blue: #B8C5D0;
+    --pink: #95216A;
+    --green: #6C972E;
+}
+
+.announcement-card {
+    background-color: var(--dark-blue);
+    border: 3px solid #fff;
+}
+

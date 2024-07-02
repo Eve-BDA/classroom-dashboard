@@ -1,0 +1,33 @@
+:root {
+    --dark-blue: #174860;
+    --mid-blue: #196C98;
+    --pale-blue: #B8C5D0;
+    --pink: #95216A;
+    --green: #6C972E;
+}
+
+.link-course {
+    fill: #000;
+    background-color: var(--pale-blue);
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    &:hover {
+        color: #fff;
+        fill: #fff;
+        background-color: var(--green);
+        transition: 0.3s;
+    }
+}
+
+.course-card {
+    background-color: var(--pale-blue);
+}
+
+.course-work-card {
+    background-color: var(--green);
+}
+
+.rubrics-card {
+    background-color: var(--pink);
+}

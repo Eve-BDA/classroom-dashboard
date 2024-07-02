@@ -1,0 +1,66 @@
+:root {
+    --dark-blue: #174860;
+    --mid-blue: #196C98;
+    --pale-blue: #B8C5D0;
+    --pink: #95216A;
+    --green: #6C972E;
+}
+
+.app-bg {
+    background-color: var(--pale-blue);
+}
+
+.app-title {
+    color: var(--dark-blue);
+}
+
+.title-line-1 {
+    width: 25rem;
+    border-bottom: 4px solid var(--dark-blue);
+}
+
+.title-line-2 {
+    width: 25rem;
+    border-bottom: 4px solid #fff;
+}
+
+.title-line-3 {
+    width: 25rem;
+    border-bottom: 4px solid #000;
+}
+
+.announcements-bg {
+    background-color: var(--pink);
+}
+
+.help-bg {
+    background-color: var(--pale-blue);
+}
+
+.btn-notifications {
+    color: #fff;
+    fill: #fff;
+    background-color: var(--green);
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    &:hover {
+        color: var(--dark-blue);
+        fill: var(--dark-blue);
+        background-color: var(--pale-blue);
+        transition: 0.3s;
+    }
+}
+
+.btn-tech-support {
+    color: #fff;
+    background-color: #000;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    &:hover {
+        color: #fff;
+        background-color: var(--green);
+        transition: 0.3s;
+    }
+}

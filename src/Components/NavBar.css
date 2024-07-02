@@ -1,5 +1,13 @@
+:root {
+    --dark-blue: #174860;
+    --mid-blue: #196C98;
+    --pale-blue: #B8C5D0;
+    --pink: #95216A;
+    --green: #6C972E;
+}
+
 .nav-bg {
-    background-color: #196C98;
+    background-color: var(--mid-blue);
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     font-weight: bold;
     font-size: large;
@@ -18,7 +26,7 @@
 }
 
 .btn-login {
-    color: #174860;
+    color: var(--dark-blue);
     font-weight: bold;
     font-size: large;
     border: none;
@@ -26,7 +34,7 @@
 
 .btn-login:hover {
     color: #fff;
-    background-color: #174860;
+    background-color: var(--green);
     transition: 0.3s;
 }
 

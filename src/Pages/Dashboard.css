@@ -1,0 +1,64 @@
+:root {
+    --dark-blue: #174860;
+    --mid-blue: #196C98;
+    --pale-blue: #B8C5D0;
+    --pink: #95216A;
+    --green: #6C972E;
+}
+
+.title {
+    color: var(--dark-blue);
+}
+
+.line-full {
+    border-bottom: 4px solid var(--dark-blue);
+}
+
+.profile-pic {
+    width: 12rem;
+}
+
+.accordion-bg {
+    background-color: var(--dark-blue);
+}
+
+.btn-classroom {
+    color: #fff;
+    fill: #fff;
+    background-color: var(--pink);
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    &:hover {
+        color: #fff;
+        fill: #fff;
+        background-color: var(--green);
+        transition: 0.3s;
+    }
+}
+
+.btn-tech-support {
+    color: #fff;
+    background-color: #000;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    &:hover {
+        color: #fff;
+        background-color: var(--green);
+        transition: 0.3s;
+    }
+}
+
+.btn-announcements {
+    color: #fff;
+    background-color: var(--green);
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    &:hover {
+        color: #fff;
+        background-color: var(--pink);
+        transition: 0.3s;
+    }
+}
