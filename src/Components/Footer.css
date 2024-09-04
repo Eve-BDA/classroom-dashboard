@@ -1,0 +1,14 @@
+.footer {
+    background-color: #196C98;
+    color: #fff;
+    /* font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; */
+}
+
+#socials {
+    background-color: #fff;
+}
+
+#socials:hover {
+    background-color: #174860;
+    transition: 0.3s;
+}

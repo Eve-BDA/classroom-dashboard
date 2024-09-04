@@ -1,0 +1,48 @@
+:root {
+    --dark-blue: #174860;
+    --mid-blue: #196C98;
+    --pale-blue: #B8C5D0;
+    --pink: #95216A;
+    --green: #6C972E;
+}
+
+.resources-bg {
+    background-color: var(--pink);
+}
+
+.resource-item-bg {
+    background-color: var(--pale-blue);
+}
+
+.tech-bg {
+    background-color: var(--dark-blue);
+}
+
+.tech-card {
+    background-color: var(--green);
+}
+
+.btn-resource {
+    color: #fff;
+    fill: #fff;
+    background-color: var(--green);
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    &:hover {
+        background-color: var(--dark-blue);
+        transition: 0.3s;
+    }
+}
+
+.link-tech {
+    fill: #fff;
+    background-color: var(--green);
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    &:hover {
+        background-color: var(--pink);
+        transition: 0.3s;
+    }
+}

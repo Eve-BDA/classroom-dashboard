@@ -1,0 +1,27 @@
+/* @font-face {
+  font-family: 'LDNKonoBold';
+  src: local('LDNKonoBold'),
+  url('./Fonts/LDNKonoBDA-Bold.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'LDNKonoMedium';
+  src: local('LDNKonoMedium'),
+  url('./Fonts/LDNKonoBDA-Medium.otf') format('otf');
+} */
+
+body, html {
+  margin: 0;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

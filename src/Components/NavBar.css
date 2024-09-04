@@ -1,0 +1,45 @@
+:root {
+    --dark-blue: #174860;
+    --mid-blue: #196C98;
+    --pale-blue: #B8C5D0;
+    --pink: #95216A;
+    --green: #6C972E;
+}
+
+.nav-bg {
+    background-color: var(--mid-blue);
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.nav-img {
+    width: 100px;
+}
+
+.nav-link {
+    font-size: x-large;
+}
+
+#basic-nav-dropdown {
+    color: #fff;
+}
+
+.btn-login {
+    color: var(--dark-blue);
+    font-weight: bold;
+    font-size: large;
+    border: none;
+}
+
+.btn-login:hover {
+    color: #fff;
+    background-color: var(--green);
+    transition: 0.3s;
+}
+
+@media (min-width: 992px) {
+    .btn-login {
+        margin-left: 30vw;
+    }
+}
